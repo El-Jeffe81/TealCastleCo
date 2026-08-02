@@ -460,27 +460,19 @@ footer {
 
 .sparkle {
 
-    position:
-        absolute;
+    position:absolute;
 
+    pointer-events:none;
 
-    pointer-events:
-        none;
+    color:#D4AF37;
 
+    text-shadow:
+    0 0 6px #D4AF37;
 
-    color:
-        #D4AF37;
-
-
-    font-size:
-        14px;
-
+    font-size:14px;
 
     animation:
-
-    sparkleFade
-    .8s
-    forwards;
+    sparkleFade .8s forwards;
 
 }
 
