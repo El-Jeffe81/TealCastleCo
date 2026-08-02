@@ -1,0 +1,11 @@
+{
+  "version": "0.1.0",
+  "build": "001",
+  "environment": "development",
+  "releaseDate": "2026-08-02",
+  "developerTracking": {
+    "gitCommit": "pending",
+    "branch": "main"
+  }
+}
+
