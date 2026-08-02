@@ -1,33 +1,46 @@
-/* 
+/*
 Teal Castle Co
-v0.1.0 Foundation Styles
+v0.1.1 Tiffany Castle Theme
 */
 
 
 * {
-    box-sizing: border-box;
+
+box-sizing:
+border-box;
+
 }
+
 
 
 html {
-    scroll-behavior: smooth;
+
+scroll-behavior:
+smooth;
+
 }
+
 
 
 body {
 
-    margin: 0;
+margin:
+0;
 
-    font-family:
-        Georgia,
-        "Times New Roman",
-        serif;
 
-    background:
-        #e7f8f8;
+font-family:
+Georgia,
+"Times New Roman",
+serif;
 
-    color:
-        #163838;
+
+background:
+#E8FAF9;
+
+
+color:
+#163838;
+
 
 }
 
@@ -35,54 +48,76 @@ body {
 
 /* HEADER */
 
+
 header {
 
-    display:
-        flex;
 
-    align-items:
-        center;
+display:
+flex;
 
-    justify-content:
-        space-between;
 
-    flex-wrap:
-        wrap;
+align-items:
+center;
 
-    padding:
-        1rem 2rem;
 
-    background:
-        #087878;
+justify-content:
+space-between;
 
-    color:
-        white;
+
+flex-wrap:
+wrap;
+
+
+padding:
+1rem 2rem;
+
+
+background:
+#0ABAB5;
+
+
+color:
+white;
+
+
+box-shadow:
+0 4px 12px rgba(0,0,0,.15);
+
 
 }
+
 
 
 
 .brand {
 
-    display:
-        flex;
 
-    align-items:
-        center;
+display:
+flex;
 
-    gap:
-        1rem;
+
+align-items:
+center;
+
+
+gap:
+1rem;
+
 
 }
 
 
+
 .brand img {
 
-    width:
-        70px;
 
-    height:
-        70px;
+width:
+70px;
+
+
+height:
+70px;
+
 
 }
 
@@ -90,13 +125,18 @@ header {
 
 .brand h1 {
 
-    margin:
-        0;
 
-    font-size:
-        1.8rem;
+margin:
+0;
+
+
+font-size:
+1.8rem;
+
 
 }
+
+
 
 
 
@@ -105,11 +145,14 @@ header {
 
 nav {
 
-    display:
-        flex;
 
-    gap:
-        1rem;
+display:
+flex;
+
+
+gap:
+1.5rem;
+
 
 }
 
@@ -117,14 +160,18 @@ nav {
 
 nav a {
 
-    color:
-        white;
 
-    text-decoration:
-        none;
+color:
+white;
 
-    font-weight:
-        bold;
+
+text-decoration:
+none;
+
+
+font-weight:
+bold;
+
 
 }
 
@@ -132,10 +179,14 @@ nav a {
 
 nav a:hover {
 
-    text-decoration:
-        underline;
+
+text-decoration:
+underline;
+
 
 }
+
+
 
 
 
@@ -144,26 +195,34 @@ nav a:hover {
 
 button {
 
-    background:
-        #d4af37;
 
-    color:
-        #163838;
+background:
+#D4AF37;
 
-    border:
-        none;
 
-    padding:
-        .75rem 1.25rem;
+color:
+#163838;
 
-    border-radius:
-        10px;
 
-    cursor:
-        pointer;
+border:
+none;
 
-    font-weight:
-        bold;
+
+padding:
+.75rem 1.5rem;
+
+
+border-radius:
+12px;
+
+
+font-weight:
+bold;
+
+
+cursor:
+pointer;
+
 
 }
 
@@ -171,22 +230,30 @@ button {
 
 button:hover {
 
-    opacity:
-        .85;
+
+transform:
+scale(1.03);
+
 
 }
 
 
 
-/* MOBILE MENU BUTTON */
+
+
+/* MOBILE MENU */
 
 
 .menu-toggle {
 
-    display:
-        none;
+
+display:
+none;
+
 
 }
+
+
 
 
 
@@ -195,18 +262,28 @@ button:hover {
 
 .hero {
 
-    text-align:
-        center;
 
-    padding:
-        5rem 2rem;
+text-align:
+center;
 
-    background:
-        linear-gradient(
-            180deg,
-            #d9ffff,
-            #e7f8f8
-        );
+
+padding:
+5rem 2rem;
+
+
+background:
+
+
+linear-gradient(
+
+180deg,
+
+#DFFFFD,
+
+#E8FAF9
+
+);
+
 
 }
 
@@ -214,8 +291,14 @@ button:hover {
 
 .hero h2 {
 
-    font-size:
-        2.5rem;
+
+font-size:
+2.7rem;
+
+
+color:
+#006B68;
+
 
 }
 
@@ -223,106 +306,254 @@ button:hover {
 
 .hero p {
 
-    max-width:
-        700px;
 
-    margin:
-        auto;
+font-size:
+1.25rem;
 
-    font-size:
-        1.2rem;
+
+max-width:
+750px;
+
+
+margin:
+auto;
+
 
 }
 
 
 
-/* SECTIONS */
+
+
+/* SECTION TITLES */
 
 
 section {
 
-    padding:
-        3rem 2rem;
 
-    text-align:
-        center;
+padding:
+3rem 2rem;
+
+
+text-align:
+center;
+
 
 }
 
+
+
+section h2 {
+
+
+color:
+#006B68;
+
+
+font-size:
+2rem;
+
+
+}
+
+
+
+
+
+/* CARD SYSTEM */
 
 
 .cards {
 
-    display:
-        grid;
 
-    grid-template-columns:
-        repeat(
-            auto-fit,
-            minmax(220px, 1fr)
-        );
+display:
+grid;
 
-    gap:
-        1.5rem;
+
+grid-template-columns:
+
+repeat(
+
+auto-fit,
+
+minmax(220px,1fr)
+
+);
+
+
+gap:
+1.5rem;
+
+
+max-width:
+1200px;
+
+
+margin:
+auto;
+
 
 }
+
+
 
 
 
 .card {
 
-    background:
-        white;
 
-    padding:
-        2rem;
+display:
+block;
 
-    border-radius:
-        15px;
 
-    box-shadow:
-        0 4px 12px rgba(0,0,0,.15);
+background:
+white;
+
+
+padding:
+2rem;
+
+
+border-radius:
+18px;
+
+
+box-shadow:
+
+0 6px 15px rgba(0,0,0,.15);
+
+
+text-decoration:
+none;
+
+
+color:
+#163838;
+
+
+transition:
+all .25s ease;
+
+
+border:
+
+2px solid transparent;
+
+
+}
+
+
+
+
+.card:hover {
+
+
+transform:
+translateY(-5px);
+
+
+border-color:
+#D4AF37;
+
 
 }
 
 
 
-.links {
 
-    display:
-        flex;
 
-    justify-content:
-        center;
+/* MARKETPLACE CARDS */
 
-    flex-wrap:
-        wrap;
 
-    gap:
-        1rem;
+.marketplace {
+
+
+background:
+
+
+linear-gradient(
+
+145deg,
+
+white,
+
+#F7FFFF
+
+);
+
+
+}
+
+
+
+.marketplace h3 {
+
+
+font-size:
+1.8rem;
+
+
+color:
+#006B68;
+
 
 }
 
 
 
-.links a {
+.marketplace p {
 
-    background:
-        #087878;
 
-    color:
-        white;
+font-size:
+1.2rem;
 
-    padding:
-        .75rem 1rem;
 
-    border-radius:
-        10px;
+font-weight:
+bold;
 
-    text-decoration:
-        none;
+
+color:
+#D4AF37;
+
 
 }
+
+
+
+.marketplace a {
+
+
+display:
+inline-block;
+
+
+margin-top:
+1rem;
+
+
+background:
+#0ABAB5;
+
+
+color:
+white;
+
+
+padding:
+.5rem 1rem;
+
+
+border-radius:
+8px;
+
+
+text-decoration:
+none;
+
+
+}
+
+
 
 
 
@@ -331,17 +562,22 @@ section {
 
 footer {
 
-    background:
-        #087878;
 
-    color:
-        white;
+background:
+#006B68;
 
-    text-align:
-        center;
 
-    padding:
-        1.5rem;
+color:
+white;
+
+
+text-align:
+center;
+
+
+padding:
+2rem;
+
 
 }
 
@@ -349,26 +585,103 @@ footer {
 
 .developer-info {
 
-    display:
-        none;
 
-    font-size:
-        .8rem;
+display:
+none;
+
 
 }
+
+
+
+
+
+/* SPARKLE EFFECT */
+
+
+.sparkle {
+
+
+position:
+absolute;
+
+
+pointer-events:
+none;
+
+
+font-size:
+12px;
+
+
+animation:
+
+sparkleFade .8s forwards;
+
+
+}
+
+
+
+@keyframes sparkleFade {
+
+
+0% {
+
+
+opacity:
+1;
+
+
+transform:
+scale(1);
+
+
+}
+
+
+
+100% {
+
+
+opacity:
+0;
+
+
+transform:
+
+scale(0)
+
+translateY(-20px);
+
+
+}
+
+
+}
+
+
+
 
 
 
 /* MOBILE */
 
 
-@media(max-width:768px) {
+@media(max-width:768px){
+
 
 
 header {
 
-    flex-direction:
-        column;
+
+flex-direction:
+column;
+
+
+gap:
+1rem;
+
 
 }
 
@@ -376,8 +689,10 @@ header {
 
 .menu-toggle {
 
-    display:
-        block;
+
+display:
+block;
+
 
 }
 
@@ -385,17 +700,18 @@ header {
 
 nav {
 
-    display:
-        none;
 
-    flex-direction:
-        column;
+display:
+none;
 
-    width:
-        100%;
 
-    text-align:
-        center;
+flex-direction:
+column;
+
+
+text-align:
+center;
+
 
 }
 
@@ -403,8 +719,10 @@ nav {
 
 nav.active {
 
-    display:
-        flex;
+
+display:
+flex;
+
 
 }
 
@@ -412,8 +730,10 @@ nav.active {
 
 .brand h1 {
 
-    font-size:
-        1.4rem;
+
+font-size:
+1.4rem;
+
 
 }
 
@@ -421,8 +741,10 @@ nav.active {
 
 .hero h2 {
 
-    font-size:
-        2rem;
+
+font-size:
+2rem;
+
 
 }
 
@@ -430,10 +752,24 @@ nav.active {
 
 section {
 
-    padding:
-        2rem 1rem;
+
+padding:
+2rem 1rem;
+
 
 }
+
+
+
+.card {
+
+
+padding:
+1.5rem;
+
+
+}
+
 
 
 }
