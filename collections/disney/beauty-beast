@@ -1,7 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
 <title>
 Beauty and the Beast | Teal Castle Co
 </title>
 
+<link rel="stylesheet" href="../../css/style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
 <h1>
 Beauty and the Beast Collection
 </h1>
+
+<a href="../disney.html">
+Back
+</a>
+
+</header>
+
+
+
+<section>
+
+<h2>
+Coming Soon
+</h2>
+
+<p>
+Items will be displayed here.
+</p>
+
+</section>
+
+
+
+<footer>
+© 2026 Teal Castle Co
+</footer>
+
+
+</body>
+
+</html>
