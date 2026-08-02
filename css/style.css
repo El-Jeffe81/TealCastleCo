@@ -1,1 +1,439 @@
+/* 
+Teal Castle Co
+v0.1.0 Foundation Styles
+*/
 
+
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+
+    margin: 0;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    background:
+        #e7f8f8;
+
+    color:
+        #163838;
+
+}
+
+
+
+/* HEADER */
+
+header {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        space-between;
+
+    flex-wrap:
+        wrap;
+
+    padding:
+        1rem 2rem;
+
+    background:
+        #087878;
+
+    color:
+        white;
+
+}
+
+
+
+.brand {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    gap:
+        1rem;
+
+}
+
+
+.brand img {
+
+    width:
+        70px;
+
+    height:
+        70px;
+
+}
+
+
+
+.brand h1 {
+
+    margin:
+        0;
+
+    font-size:
+        1.8rem;
+
+}
+
+
+
+/* NAVIGATION */
+
+
+nav {
+
+    display:
+        flex;
+
+    gap:
+        1rem;
+
+}
+
+
+
+nav a {
+
+    color:
+        white;
+
+    text-decoration:
+        none;
+
+    font-weight:
+        bold;
+
+}
+
+
+
+nav a:hover {
+
+    text-decoration:
+        underline;
+
+}
+
+
+
+/* BUTTONS */
+
+
+button {
+
+    background:
+        #d4af37;
+
+    color:
+        #163838;
+
+    border:
+        none;
+
+    padding:
+        .75rem 1.25rem;
+
+    border-radius:
+        10px;
+
+    cursor:
+        pointer;
+
+    font-weight:
+        bold;
+
+}
+
+
+
+button:hover {
+
+    opacity:
+        .85;
+
+}
+
+
+
+/* MOBILE MENU BUTTON */
+
+
+.menu-toggle {
+
+    display:
+        none;
+
+}
+
+
+
+/* HERO */
+
+
+.hero {
+
+    text-align:
+        center;
+
+    padding:
+        5rem 2rem;
+
+    background:
+        linear-gradient(
+            180deg,
+            #d9ffff,
+            #e7f8f8
+        );
+
+}
+
+
+
+.hero h2 {
+
+    font-size:
+        2.5rem;
+
+}
+
+
+
+.hero p {
+
+    max-width:
+        700px;
+
+    margin:
+        auto;
+
+    font-size:
+        1.2rem;
+
+}
+
+
+
+/* SECTIONS */
+
+
+section {
+
+    padding:
+        3rem 2rem;
+
+    text-align:
+        center;
+
+}
+
+
+
+.cards {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(220px, 1fr)
+        );
+
+    gap:
+        1.5rem;
+
+}
+
+
+
+.card {
+
+    background:
+        white;
+
+    padding:
+        2rem;
+
+    border-radius:
+        15px;
+
+    box-shadow:
+        0 4px 12px rgba(0,0,0,.15);
+
+}
+
+
+
+.links {
+
+    display:
+        flex;
+
+    justify-content:
+        center;
+
+    flex-wrap:
+        wrap;
+
+    gap:
+        1rem;
+
+}
+
+
+
+.links a {
+
+    background:
+        #087878;
+
+    color:
+        white;
+
+    padding:
+        .75rem 1rem;
+
+    border-radius:
+        10px;
+
+    text-decoration:
+        none;
+
+}
+
+
+
+/* FOOTER */
+
+
+footer {
+
+    background:
+        #087878;
+
+    color:
+        white;
+
+    text-align:
+        center;
+
+    padding:
+        1.5rem;
+
+}
+
+
+
+.developer-info {
+
+    display:
+        none;
+
+    font-size:
+        .8rem;
+
+}
+
+
+
+/* MOBILE */
+
+
+@media(max-width:768px) {
+
+
+header {
+
+    flex-direction:
+        column;
+
+}
+
+
+
+.menu-toggle {
+
+    display:
+        block;
+
+}
+
+
+
+nav {
+
+    display:
+        none;
+
+    flex-direction:
+        column;
+
+    width:
+        100%;
+
+    text-align:
+        center;
+
+}
+
+
+
+nav.active {
+
+    display:
+        flex;
+
+}
+
+
+
+.brand h1 {
+
+    font-size:
+        1.4rem;
+
+}
+
+
+
+.hero h2 {
+
+    font-size:
+        2rem;
+
+}
+
+
+
+section {
+
+    padding:
+        2rem 1rem;
+
+}
+
+
+}
