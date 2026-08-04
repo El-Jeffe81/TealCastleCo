@@ -56,17 +56,25 @@ header {
     background:
 
     linear-gradient(
-        rgba(10,186,181,.75),
-        rgba(10,186,181,.75)
+        rgba(10,186,181,.45),
+        rgba(10,186,181,.45)
     ),
 
     url("../assets/images/TCC-header-banner.png");
 
 background-size:
-    contain;
+    100% auto;
+
+background-position:
+    center;
 
 background-repeat:
     no-repeat;
+
+min-height:
+    180px;
+    
+
 
 background-position:
     center;
