@@ -54,8 +54,22 @@ header {
         1rem 2rem;
 
     background:
-        #0ABAB5;
 
+    linear-gradient(
+        rgba(10,186,181,.75),
+        rgba(10,186,181,.75)
+    ),
+
+    url("../assets/images/header-background.jpg");
+
+background-size:
+    cover;
+
+background-position:
+    center;
+/*    background:
+        #0ABAB5; 
+*/
     color:
         white;
 
@@ -143,6 +157,42 @@ nav a:hover {
 
 /* BUTTONS */
 
+.button {
+
+    display:
+        inline-block;
+
+    background:
+        #D4AF37;
+
+    color:
+        #163838;
+
+    text-decoration:
+        none;
+
+    padding:
+        .75rem 1.5rem;
+
+    border-radius:
+        12px;
+
+    font-weight:
+        bold;
+
+    cursor:
+        pointer;
+
+}
+
+
+
+.button:hover {
+
+    transform:
+        scale(1.03);
+
+}
 
 button {
 
