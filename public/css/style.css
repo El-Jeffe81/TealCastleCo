@@ -1,6 +1,6 @@
 /*
 Teal Castle Co
-v0.1.1 Tiffany Blue Theme
+v0.1.2 Tiffany Blue Theme
 */
 
 
@@ -51,36 +51,29 @@ header {
         wrap;
 
     padding:
-        1rem 1rem;
+        1rem 2rem;
 
     background:
 
-    linear-gradient(
-        rgba(10,186,181,.45),
-        rgba(10,186,181,.45)
-    ),
+        linear-gradient(
+            rgba(10,186,181,.45),
+            rgba(10,186,181,.45)
+        ),
 
-    url("../assets/images/TCC-header-banner.png");
+        url("../assets/images/TCC-header-banner.png");
 
-background-size:
-    100% auto;
+    background-size:
+        cover;
 
-background-position:
-    center center;
+    background-position:
+        center 35%;
 
-background-repeat:
-    no-repeat;
+    background-repeat:
+        no-repeat;
 
-min-height:
-    180px;
-    
+    min-height:
+        180px;
 
-
-overflow:
-    hidden;
-/*    background:
-        #0ABAB5; 
-*/
     color:
         white;
 
@@ -168,6 +161,7 @@ nav a:hover {
 
 /* BUTTONS */
 
+
 .button {
 
     display:
@@ -194,6 +188,9 @@ nav a:hover {
     cursor:
         pointer;
 
+    transition:
+        .25s;
+
 }
 
 
@@ -204,6 +201,8 @@ nav a:hover {
         scale(1.03);
 
 }
+
+
 
 button {
 
@@ -227,6 +226,9 @@ button {
 
     font-weight:
         bold;
+
+    transition:
+        .25s;
 
 }
 
@@ -268,15 +270,15 @@ button:hover {
 
     background:
 
-    linear-gradient(
+        linear-gradient(
 
-        180deg,
+            180deg,
 
-        #DFFFFD,
+            #DFFFFD,
 
-        #E8FAF9
+            #E8FAF9
 
-    );
+        );
 
 }
 
@@ -347,22 +349,19 @@ section h2 {
 
     grid-template-columns:
 
-    repeat(
+        repeat(
 
-        auto-fit,
+            auto-fit,
 
-        minmax(220px,1fr)
+            minmax(220px,1fr)
 
-    );
-
+        );
 
     gap:
         1.5rem;
 
-
     max-width:
         1200px;
-
 
     margin:
         auto;
@@ -386,23 +385,18 @@ section h2 {
     border-radius:
         18px;
 
-
     box-shadow:
 
-    0 6px 15px rgba(0,0,0,.15);
-
+        0 6px 15px rgba(0,0,0,.15);
 
     text-decoration:
         none;
 
-
     color:
         #163838;
 
-
     transition:
         .25s;
-
 
 }
 
@@ -413,7 +407,6 @@ section h2 {
 
     transform:
         translateY(-6px);
-
 
     border:
         2px solid #D4AF37;
@@ -432,18 +425,17 @@ section h2 {
     cursor:
         pointer;
 
-
     background:
 
-    linear-gradient(
+        linear-gradient(
 
-        145deg,
+            145deg,
 
-        white,
+            white,
 
-        #F7FFFF
+            #F7FFFF
 
-    );
+        );
 
 }
 
@@ -453,7 +445,6 @@ section h2 {
 
     font-size:
         1.8rem;
-
 
     color:
         #006B68;
@@ -467,10 +458,8 @@ section h2 {
     font-size:
         1.2rem;
 
-
     color:
         #D4AF37;
-
 
     font-weight:
         bold;
@@ -489,14 +478,11 @@ footer {
     background:
         #006B68;
 
-
     color:
         white;
 
-
     text-align:
         center;
-
 
     padding:
         2rem;
@@ -521,19 +507,23 @@ footer {
 
 .sparkle {
 
-    position:absolute;
+    position:
+        absolute;
 
-    pointer-events:none;
+    pointer-events:
+        none;
 
-    color:#D4AF37;
+    color:
+        #D4AF37;
 
     text-shadow:
-    0 0 6px #D4AF37;
+        0 0 6px #D4AF37;
 
-    font-size:14px;
+    font-size:
+        14px;
 
     animation:
-    sparkleFade .8s forwards;
+        sparkleFade .8s forwards;
 
 }
 
