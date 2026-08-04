@@ -63,7 +63,10 @@ header {
     url("../assets/images/TCC-header-banner.png");
 
 background-size:
-    100% auto;
+    contain;
+
+background-repeat:
+    no-repeat;
 
 background-position:
     center;
