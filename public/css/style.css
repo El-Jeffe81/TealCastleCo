@@ -54,25 +54,7 @@ header {
         1rem 2rem;
 
     background:
-
-        linear-gradient(
-            rgba(10,186,181,.45),
-            rgba(10,186,181,.45)
-        ),
-
-        url("../assets/images/TCC-header-banner.png");
-
-    background-size:
-        cover;
-
-    background-position:
-        center;
-
-    background-repeat:
-        no-repeat;
-
-    min-height:
-        140px;
+        #0ABAB5;
 
     color:
         white;
@@ -81,7 +63,6 @@ header {
         0 4px 12px rgba(0,0,0,.15);
 
 }
-
 
 .brand {
 
