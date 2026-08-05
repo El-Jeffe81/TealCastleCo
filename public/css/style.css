@@ -631,4 +631,5 @@ section {
     object-fit: cover;
     object-position: center center;
     border-radius: 12px;
+    overflow: hidden;
 }
