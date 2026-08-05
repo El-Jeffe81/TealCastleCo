@@ -35,7 +35,6 @@ body {
 
 /* HEADER */
 
-
 header {
 
     display:
@@ -54,7 +53,19 @@ header {
         1rem 2rem;
 
     background:
-        #0ABAB5;
+
+        linear-gradient(
+            rgba(10,186,181,.75),
+            rgba(10,186,181,.75)
+        ),
+
+        url("../assets/images/header-background.jpg");
+
+    background-size:
+        cover;
+
+    background-position:
+        center;
 
     color:
         white;
