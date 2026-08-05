@@ -3,31 +3,80 @@ Teal Castle Co
 Music Controller
 */
 
-const audio = document.getElementById("site-music");
 
-const musicButton = document.getElementById("music-toggle");
+const audio = document.getElementById("themeAudio");
+
+const musicButton = document.getElementById("musicToggle");
 
 
-musicButton.addEventListener(
-"click",
-function(){
 
-    if(audio.paused){
+if (!audio) {
 
-        audio.play();
+    console.error("Music error: themeAudio not found");
 
-        musicButton.innerHTML =
-        "🔇 Mute";
+}
 
-    }
 
-    else{
+if (!musicButton) {
 
-        audio.pause();
+    console.error("Music error: musicToggle not found");
 
-        musicButton.innerHTML =
-        "🔊 Music";
+}
 
-    }
 
-});
+
+if (audio && musicButton) {
+
+
+    musicButton.addEventListener(
+    "click",
+    function(){
+
+
+        if (audio.paused) {
+
+
+            audio.play()
+
+            .then(function(){
+
+
+                musicButton.innerHTML =
+                "🔇 Mute";
+
+
+            })
+
+
+            .catch(function(error){
+
+
+                console.error(
+                    "Music playback failed:",
+                    error
+                );
+
+
+            });
+
+
+        }
+
+
+        else {
+
+
+            audio.pause();
+
+
+            musicButton.innerHTML =
+            "🔊 Music";
+
+
+        }
+
+
+    });
+
+
+}
