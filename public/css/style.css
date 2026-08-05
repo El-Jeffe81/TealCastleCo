@@ -303,10 +303,10 @@ section h2 {
         block;
 
     width:
-        90%;
+        60%;
 
     max-width:
-        900px;
+        700px;
 
     height:
         auto;
@@ -355,6 +355,7 @@ section h2 {
 }
 
 
+
 .card {
 
     display:
@@ -382,6 +383,7 @@ section h2 {
         .25s;
 
 }
+
 
 
 .card:hover {
@@ -604,7 +606,7 @@ section {
 
 
 
-/* SMALL MOBILE IMAGE */
+/* MOBILE ABOUT IMAGE */
 
 @media(max-width:600px){
 
@@ -612,13 +614,13 @@ section {
 .about-image {
 
     width:
-        95%;
+        85%;
+
+    max-width:
+        400px;
 
     aspect-ratio:
         16 / 9;
-
-    border-radius:
-        12px;
 
 }
 
