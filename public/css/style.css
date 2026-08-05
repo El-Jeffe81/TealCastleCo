@@ -623,6 +623,7 @@ section {
 
 
 .about-image {
+    clip-path: inset(0 round 12px);
     display: block;
     width: 80%;
     max-width: 900px;
