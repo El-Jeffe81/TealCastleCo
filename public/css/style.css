@@ -621,6 +621,12 @@ section {
 
 }
 
+@media (max-width: 600px) {
+    .about-image {
+        width: 95%;
+        aspect-ratio: 16 / 9;
+    }
+}
 
 .about-image {
     display: block;
