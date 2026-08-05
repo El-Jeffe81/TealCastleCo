@@ -620,3 +620,14 @@ section {
 
 
 }
+
+
+.about-image {
+    display: block;
+    width: 80%;
+    max-width: 900px;
+    height: 300px;
+    margin: 30px auto;
+    object-fit: cover;
+    border-radius: 12px;
+}
