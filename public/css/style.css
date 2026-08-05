@@ -622,18 +622,13 @@ section {
 }
 
 
-.about-image-container {
+.about-image {
+    display: block;
     width: 80%;
     max-width: 900px;
     height: 300px;
     margin: 30px auto;
-    border-radius: 12px;
-    overflow: hidden;
-}
-
-.about-image-container img {
-    width: 100%;
-    height: 100%;
     object-fit: cover;
     object-position: center top;
+    border-radius: 12px;
 }
