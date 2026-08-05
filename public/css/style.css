@@ -623,7 +623,6 @@ section {
 
 
 .about-image {
-    clip-path: inset(0 round 12px);
     display: block;
     width: 80%;
     max-width: 900px;
@@ -632,4 +631,5 @@ section {
     object-fit: cover;
     object-position: center top;
     border-radius: 12px;
+    clip-path: inset(0 round 12px);
 }
