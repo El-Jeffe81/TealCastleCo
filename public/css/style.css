@@ -629,6 +629,6 @@ section {
     height: 300px;
     margin: 30px auto;
     object-fit: cover;
-    object-position: center center;
+    object-position: center top;
     border-radius: 12px;
 }
