@@ -627,7 +627,7 @@ section {
     width: 90%;
     max-width: 900px;
     height: auto;
-    aspect-ratio: 4 / 1;
+    aspect-ratio: 3 / 1;
     margin: 30px auto;
     object-fit: cover;
     object-position: center center;
