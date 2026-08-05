@@ -630,6 +630,6 @@ section {
     aspect-ratio: 3 / 1;
     margin: 30px auto;
     object-fit: cover;
-    object-position: center center;
+    object-position: center top;
     border-radius: 12px;
 }
